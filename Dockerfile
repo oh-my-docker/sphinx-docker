@@ -4,8 +4,8 @@ LABEL maintainer="Peng Xiao <xiaoquwl@gmail.com>"
 
 RUN apk add --update make && pip install sphinx
 
-WORKDIR /app
+WORKDIR /omd
 
-VOLUME ["/app"]
+VOLUME ["/omd"]
 
 CMD []
